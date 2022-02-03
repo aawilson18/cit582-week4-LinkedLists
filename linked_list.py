@@ -40,5 +40,5 @@ def app_five(block_list):
     oldBlock = block_list[-1]
     for i in range(5):
       oldBlock = next_block(oldBlock)
-
+      block_list.append(oldBlock)
 
